@@ -1,0 +1,57 @@
+/* Publication entries */
+.post-content hr {
+  margin: 2rem 0;
+  border-color: var(--border);
+  opacity: 0.3;
+}
+
+.post-content h2 {
+  margin-top: 2.5rem;
+}
+
+.post-content h2 + p > strong:first-child {
+  color: var(--secondary);
+}
+
+.post-content h2 + p > em {
+  color: var(--secondary);
+  font-size: 0.95em;
+}
+
+/* DOI links */
+.post-content a[href*="doi.org"] {
+  font-family: var(--code-font);
+  font-size: 0.9em;
+}
+
+/* Stack page: tighter list spacing */
+.post-content ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Experience section: role dates */
+.post-content h2 + p > em:only-child {
+  display: block;
+  color: var(--secondary);
+  font-size: 0.9em;
+  margin-bottom: 1rem;
+}
+
+/* Experience subsystem headings */
+.post-content h3 {
+  font-size: 1.05rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Profile mode impact snapshot on home */
+.main .profile + div hr {
+  margin: 1.5rem 0;
+  opacity: 0.2;
+}
+
+/* Slightly wider content for readability */
+.main {
+  max-width: 800px;
+}

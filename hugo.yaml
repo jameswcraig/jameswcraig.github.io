@@ -1,0 +1,129 @@
+baseURL: "https://jameswcraig.github.io/"
+title: "James Craig"
+theme: "PaperMod"
+languageCode: "en-us"
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "James Craig"
+  description: >-
+    Modeling & Cloud Software Engineer specializing in NLME systems,
+    pharmacometric software, statistical computing, optimization algorithms,
+    and cloud modeling platforms.
+  keywords:
+    - NLME modeling
+    - pharmacometric software
+    - statistical computing
+    - R package development
+    - scientific software engineering
+    - cloud modeling platforms
+    - optimization algorithms
+    - simulation systems
+    - quantitative modeling
+  author: "James Craig"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  hidemeta: true
+  hideSummary: false
+  showtoc: false
+
+  assets:
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+
+  profileMode:
+    enabled: true
+    title: "James Craig"
+    subtitle: >-
+      Modeling & Cloud Software Engineer | NLME Systems |
+      Statistical Computing (R/Python) | Optimization & Simulation Systems
+    imageUrl: "/images/james.jpeg"
+    imageWidth: 140
+    imageHeight: 140
+    imageTitle: "James Craig"
+    buttons:
+      - name: Publications
+        url: /publications/
+      - name: Experience
+        url: /experience/
+      - name: Projects
+        url: /projects/
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/jameswcraig/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/james-craig-730b1483/"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 2
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 3
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 4
+    - identifier: stack
+      name: Stack
+      url: /stack/
+      weight: 5
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 6
+
+markup:
+  highlight:
+    noClasses: false
+
+pygmentsUseClasses: true
