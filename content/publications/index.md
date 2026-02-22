@@ -6,9 +6,6 @@ description: >-
 hidemeta: true
 ---
 
-Peer-reviewed publications in pharmacometric modeling, optimization algorithms, machine learning--driven model selection, simulation systems, and scientific visualization.
-
----
 
 ## Effective Visualizations Using "vachette" to Assess and Communicate Pharmacometric Model Results
 

@@ -6,10 +6,6 @@ description: >-
 hidemeta: true
 ---
 
-Career defined by systems designed, architecture decisions made, and modeling infrastructure built — not task lists.
-
----
-
 ## Staff Software Engineer, Certara  
 *September 2022 -- Present*
 

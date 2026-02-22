@@ -6,10 +6,6 @@ description: >-
 hidemeta: true
 ---
 
-Scientific modeling infrastructure and cloud-native platforms I have designed, architected, and maintained across statistical computing, optimization systems, and enterprise modeling environments.
-
----
-
 # Modeling Engine Interfaces & Infrastructure
 
 ## RsNLME (R Speaks NLME)

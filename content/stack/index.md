@@ -6,10 +6,6 @@ description: >-
 hidemeta: true
 ---
 
-Technical expertise organized by systems domain rather than language alone.
-
----
-
 # Statistical Computing & Scientific Software
 
 **R (Primary Engineering Language)**  
